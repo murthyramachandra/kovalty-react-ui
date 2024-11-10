@@ -18,7 +18,7 @@ const servicesContent =[
     description: 'Our consultants have in-depth knowledge and experience in the design, deployment and integration of management solutions for infrastructure.',
   },
   {
-    img        : '/assets/OurServicesCard1.png',
+    img        : '/assets/Development.png',
     title      : 'Development',
     description: 'We offer an integrated professional team capable of identifying and engineering workflow to generate deliverables of quality, creation of custom software, end-to-end products, modules and components.',
   },
@@ -28,12 +28,12 @@ const servicesContent =[
     description: 'A primary purpose of testing is to identify software vulnerabilities in order to discover and repair any defects. Qrious provides the Manual Testing, Automated Testing and Performance Testing services.',
   },
   {
-    img        : '/assets/OurServicesCard1.png',
+    img        : '/assets/itRecrutingBanner.jpg',
     title      : 'IT Recruiting',
     description: 'We have long-term and short-term IT consulting needs. In addition to staffing, Qrious offers recruitment solutions to customers who need more than just providing opening candidates.',
   },
   {
-    img        : '/assets/OurServicesCard2.png',
+    img        : '/assets/OurServicesCard4.png',
     title      : 'Training',
     description: 'As per the needs of the company, we provide training on the latest IT technologies and regions, and deploy trained professionals from new college grades to senior consultants.',
   }
