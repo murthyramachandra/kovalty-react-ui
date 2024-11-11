@@ -148,11 +148,7 @@ const Services = () => {
             paddingX   = {5}
             color      = "#00000090"
           >
-            Kovalty streamlines project management with intuitive tools,
-            fostering efficient collaboration and tracking for smoother project
-            execution. Its insightful analytics empower informed
-            decision-making, ensuring projects stay on track and achieve optimal
-            outcomes.
+            We invite you to embark on this exciting journey with us. Whether you're a startup seeking to launch your first product or an established business looking to enhance your software capabilities, we're here to help you succeed.
           </Typography>
           <Box width = "100%" display = "flex" justifyContent = "center" mt = {1}>
             <Button

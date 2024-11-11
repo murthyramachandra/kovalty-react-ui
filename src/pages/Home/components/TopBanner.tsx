@@ -20,13 +20,14 @@ const LeftContentContainer = styled(Box)`
   height         : 100%;
   flex-direction : column;
   justify-content: flex-end;
-  align-items    : center;
+  align-items    : left;
+  justify-content: center;
   margin-bottom  : 30px;
   padding        : 0px 30px;
   @media (max-width: 900px) {
     max-width      : 100%;
     padding        : 0px 15px;
-    justify-content: center;
+    justify-content: left;
   }
 `;
 
@@ -43,39 +44,38 @@ const ImageContainer = styled(Box)`
 `;
 
 const StyledContentOne = styled(Typography)`
-  font-size : 28px;
+  font-size : 32px;
   color     : #ad88c6;
   text-align: left;
   @media (max-width: 900px) {
     font-size : 22px;
-    text-align: center;
+    text-align: left;
   }
 `;
 
 const StyledContentTwo = styled(Typography)`
-  font-size : 22px;
+  font-size : 18px;
   color     : #00000092;
   text-align: left;
   @media (max-width: 900px) {
     font-size : 16px;
-    text-align: center;
+    text-align: left;
   }
 `;
 
 const TopBanner = () => {
   return (
     <StyledTopBannerContainer id     = "home">
-    <Stack                    height = "100%" flexDirection = "row">
+    <Stack                    height = "100%" flexDirection = "row" alignItems="center">
         <LeftContentContainer>
           <StyledContentOne
             fontWeight   = {600}
             marginBottom = {3}
           >
-            The all-in-one Project management Platform made for client work
+            Empowering Businesses Through Technology
           </StyledContentOne>
-          <StyledContentTwo fontWeight = {600}>
-            Find out how Kovalty helps you to build your new project with new
-            technologies{" "}
+          <StyledContentTwo fontWeight = {400}>
+            We envision a world where technology empowers businesses to reach their full potential. By harnessing our expertise and innovative mindset, we strive to become a trusted partner for organizations navigating the complexities of the digital age.
           </StyledContentTwo>
         </LeftContentContainer>
         <ImageContainer>

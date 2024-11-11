@@ -20,7 +20,7 @@ import theme from "../../styles/theme";
 const drawerWidth = 240;
 // Update navItems to include IDs for scrolling
 export const navItems = [
-  { label: "Insights", id: "insights" },
+  { label: "Home", id: "home" },
   // { label: "Industries", id: "industries" },
   { label: "Services", id: "services" },
   // { label: "Careers", id: "careers" },
