@@ -8,6 +8,9 @@ import AboutUs from "./components/AboutUs";
 // import Industries from "./components/Industries";
 // import ContactUs from "./components/ContactUs";
 import Fotter from "./components/Fotter";
+import AboutUsText from "./components/AboutUsText";
+import HscrollBlock from "./components/HScroll";
+import Careers from "./components/Careers";
 
 const Home: React.FC = () => {
   return (
@@ -23,11 +26,14 @@ const Home: React.FC = () => {
       <div style={{height:'auto',overflowY:'auto',position: 'relative'}}>
       <TopBanner />
       <Services />
-      <Insights />
+      {/* <Insights /> */}
       <AboutUs />
       {/* <Industries /> */}
       {/* <Careers /> */}
       {/* <ContactUs /> */}
+      {/* <AboutUsText /> */}
+      <HscrollBlock />
+      <Careers />
       <Fotter/>
       </div>
     </div>
